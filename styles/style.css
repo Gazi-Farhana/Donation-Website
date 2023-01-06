@@ -1,5 +1,5 @@
 *{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0;
 }
 
@@ -164,12 +164,11 @@ display:flex;
 
 /*section4*/
 .last-buttons{
-    margin-top: 140px;
+    margin: 140px auto;
     background: #fdf1e8;
     border-radius: 15px;
     padding: 130px 150px;
-    
-    
+    width: 30%;
 }
 
 .em, .sub{
@@ -186,8 +185,8 @@ display:flex;
     
 }
 
-.em{
-    margin-left: 45%;
+.email{
+    text-align: center;
 }
 
 /*footer*/
