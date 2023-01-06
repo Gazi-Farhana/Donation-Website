@@ -1,0 +1,174 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    margin: 0;
+}
+
+/*banner*/
+.banner{
+    background-image: url(../donate-today/images/donation13.jpg);
+    background-size: 100% 100%;
+     background-attachment: fixed;
+    background-repeat: no-repeat; 
+}
+.div-banner{
+align-items: center;
+padding: 450px;
+text-align: center;
+/* position: relative; */
+}    
+ 
+
+.banner-title{
+    text-align: center;
+    font-weight: 900;
+    font-size: 100px;
+    color: rgb(255, 250, 241);
+   
+}
+
+.banner-p{
+    text-align: center;
+    font-weight: 10;
+    font-size: 50px;
+    color: antiquewhite;
+}
+
+.button1{
+    
+    font-weight: 700;
+    font-size: 30px;
+    /*i need to find another way to bring it to center*/
+    text-align: center;
+    color: antiquewhite;
+    background-color: rgb(233, 96, 96);
+    border-radius: 5px;
+    border: 0;
+    padding: 30px;
+    /* position: absolute; */
+    left: 46%;
+}
+
+
+/*section-donation-today*/
+
+.donate-today{
+    padding: 0 400px;
+}
+
+.h2-dt{
+    font-size: 40px;
+    color: rgb(27, 24, 24);
+}
+
+.h2-dt, .p-dt{
+    text-align: center;
+    margin-top: 50px;  
+    margin-bottom: 40px;  
+}
+
+.p-dt{
+    font-size: 25px;
+}
+
+.dt-buttons{
+    padding-left: 11%;
+}
+
+button{
+    text-align: center;
+   margin-left: 35px;
+   background-color:rgb(230, 234, 238);
+   border: 0;
+   border-radius: 5px;
+   font-size: 30px;
+   padding: 10px;
+   color: rgb(90, 89, 89);
+}
+
+#taka{
+    border: 0;
+    text-align: center;
+    margin-left: 50%;
+    margin-top: 30px;
+}
+
+.button2{
+    text-align: center;
+}
+
+
+/*Section2*/
+
+our-donation-plan{
+    margin: 0 400px;
+}
+.donation-plan{
+display:flex;
+}
+
+.food {
+    background-color: rgb(211, 232, 250);
+}
+
+.shelter{
+    background-color: rgb(248, 219, 224);
+}
+
+.education{
+    background-color: antiquewhite;
+}
+
+.food, .shelter, .education{
+    
+    padding: 20px;
+    border-radius: 2px;
+    margin-left: 150px;
+}
+
+/*section3*/
+
+.a{
+    display: flex;
+}
+
+.a1, .a2{
+    margin-left: 5%;
+}
+
+.b{
+    display: flex;
+    margin-top: 110px;
+}
+
+.b1, .b2{
+    margin-left: 7%;
+}
+
+.how-button{
+    font-weight: 700;
+    font-size: 30px;
+    /*i need to find another way to bring it to center*/
+    text-align: center;
+    color: antiquewhite;
+    background-color: rgb(233, 96, 96);
+    border-radius: 5px;
+    border: 0;
+    padding: 30px;
+}
+
+.section3{
+    margin-top: 150px;
+    margin-bottom: 160px;
+    
+}
+
+/*section4*/
+
+.div-form{
+   
+
+}
+
+.form{
+    margin-left: 50%;
+}
