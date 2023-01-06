@@ -12,7 +12,7 @@
 }
 .div-banner{
 align-items: center;
-padding: 450px;
+padding: 100px 450px 450px 450px;
 text-align: center;
 /* position: relative; */
 }    
@@ -163,12 +163,46 @@ display:flex;
 }
 
 /*section4*/
+.last-buttons{
+    margin-top: 140px;
+    background: #fdf1e8;
+    border-radius: 15px;
+    padding: 130px 150px;
+    
+    
+}
 
-.div-form{
-   
+.em, .sub{
+    border:0;
+    padding:10px;
+    
 
 }
 
-.form{
-    margin-left: 50%;
+.sub{
+    background-color: rgb(250, 107, 107);
+    color: aliceblue;
+    border-radius: 3px;
+    
+}
+
+.em{
+    margin-left: 45%;
+}
+
+/*footer*/
+
+footer{
+    text-align: center;
+    background-color: rgb(65, 7, 7);
+    margin-top: 100px;
+    
+}
+footer > h4 {
+    color: rgb(241, 121, 22);
+    padding-top: 30px;
+} 
+footer > h6 {
+    color: bisque;
+    padding-bottom: 30px;
 }
